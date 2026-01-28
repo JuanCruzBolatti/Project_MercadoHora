@@ -1,6 +1,6 @@
 # Mercado Hora
 
-## Español 🇪🇸
+## Español
 
 **Mercado Hora** es una extensión simple y ligera que traduce los precios de **Mercado Libre** a **cuántas horas o días de trabajo necesitás para comprar un producto**, según tu sueldo y tus horas laborales.
 
@@ -19,7 +19,7 @@ Toda la información ingresada se mantiene únicamente en tu sesión local del n
 
 ---
 
-## English 🇬🇧
+## English
 
 **Mercado Hora** is a simple and lightweight browser extension that translates **Mercado Libre prices** into **how many hours or days of work you need to afford a product**, based on your salary and working hours.
 
@@ -38,7 +38,7 @@ All data remains locally in your browser session.
 
 ---
 
-## Italiano 🇮🇹
+## Italiano
 
 **Mercado Hora** è un’estensione semplice e leggera che traduce i prezzi di **Mercado Libre** in **quante ore o giorni di lavoro servono per acquistare un prodotto**, in base al tuo stipendio e alle tue ore lavorative.
 
