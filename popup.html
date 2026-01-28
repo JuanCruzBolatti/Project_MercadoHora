@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mercado-Hora</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="hide-scrollbar">
+    <div class="popup-container">
+      <h3>Configurar</h3>
+
+      <label>Sueldo mensual:</label>
+      <input type="number" id="sueldo" placeholder="Ej: 200000">
+
+      <label>D&iacute;as trabajados a la semana:</label>
+      <input type="number" id="dias" placeholder="Ej: 5">
+
+      <label>Horas por d&iacute;a:</label>
+      <input type="number" id="horasDia" placeholder="Ej: 8">
+
+      <div class="toggle-container">
+        <div class="toggle-switch">
+          <input type="checkbox" id="horasExtraToggle">
+          <label for="horasExtraToggle"></label>
+        </div>
+        <span class="toggle-text">&iquest;Ten&eacute;s horas extras?</span>
+      </div>
+
+      <div id="horasExtraOpciones" style="display: none;">
+        <label>Horas extra mensuales (d&iacute;as comunes, 50% extra):</label>
+        <input type="number" id="horasExtraComunes" placeholder="Ej: 5">
+
+        <label>Horas extra mensuales (fines de semana/feriados, 100% extra):</label>
+        <input type="number" id="horasExtraEspeciales" placeholder="Ej: 4">
+      </div>
+
+      <p><strong>Valor de tu hora:</strong> <span id="valorHora">--</span></p>
+
+      <button id="guardar">Guardar</button>
+      <button id="toggle">Desactivar</button>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

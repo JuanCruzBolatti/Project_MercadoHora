@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "Mercado Hora - De Pesos a Días de Trabajo",
+  "version": "1.0",
+  "description": "Muestra cuántos días y horas necesitas trabajar para pagar un producto en Mercado Libre",
+
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+
+  "host_permissions": [
+    "*://www.mercadolibre.com/*",
+    "*://www.mercadolibre.com.ar/*",
+    "*://articulo.mercadolibre.com.ar/*",
+    "*://listado.mercadolibre.com.ar/*"
+  ],
+
+  "action": {
+    "default_popup": "popup.html"
+  },
+
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.mercadolibre.com/*",
+        "*://www.mercadolibre.com.ar/*",
+        "*://articulo.mercadolibre.com.ar/*",
+        "*://listado.mercadolibre.com.ar/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+
+  "default_locale": "es"
+}
